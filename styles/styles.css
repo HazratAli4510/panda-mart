@@ -65,16 +65,13 @@ nav form button:focus{
 /* Hero area slider */
 
 #hero-area .carousel-item h1{
-    font-size: 56px;
     font-weight: 700;
     color: #1F1F1F;
 }
 #hero-area .carousel-item p{
-    font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #4E4E4E;
-    width: 70%;
 }
 #hero-area .carousel-item h1.price{
     color: #FF136F;
@@ -96,7 +93,6 @@ nav form button:focus{
 
 /* Categories Section */
 #Categories .row{
-    column-gap: 2rem;
     row-gap: 1.5rem;
 }
 #Categories .row h1{
