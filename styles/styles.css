@@ -4,6 +4,37 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* utility clasess */
+.panda-bg-primary{
+    background-color: #FEEAE9;
+}
+.panda-bg-secondary{
+    background-color: #FF136F;
+}
+.panda-btn-primary{
+    background-color: #FF136F;
+    color: white;
+    padding: 0.8rem 2rem;
+}
+.panda-btn-secondary{
+    background-color: #F37A25;
+    color: white;
+    padding: 0.8rem 2rem;
+}
+.panda-btn-primary:hover{
+    color: white;
+}
+.panda-btn-primary:focus{
+    box-shadow: none;
+}
+
+
+
+/* Navigation Menu */
+
+
 nav .nav-item a{
     font-weight: 600;
     font-weight: 16px;
@@ -18,4 +49,36 @@ nav form button{
 }
 nav form button:focus{
     box-shadow: none !important;
+}
+
+
+
+/* Hero area slider */
+
+#hero-area .carousel-item h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #1F1F1F;
+}
+#hero-area .carousel-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E4E4E;
+    width: 70%;
+}
+#hero-area .carousel-item h1.price{
+    color: #FF136F;
+    font-weight: 500;
+}
+#hero-area .carousel-item{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid black;
+}
+#hero-area .carousel-item.panda-bg-secondary p{
+    color: white;
 }
