@@ -13,13 +13,22 @@
 .panda-bg-secondary{
     background-color: #FF136F;
 }
+.panda-bg-ternary{
+    background-color: #FF9C35;
+}
+.panda-bg-extra{
+    background-color: #4289FF;
+}
+.panda-bg-gray{
+    background-color: #F4F4F4;
+}
 .panda-btn-primary{
     background-color: #FF136F;
     color: white;
     padding: 0.8rem 2rem;
 }
 .panda-btn-secondary{
-    background-color: #F37A25;
+    background-color: #FF9C35;
     color: white;
     padding: 0.8rem 2rem;
 }
@@ -80,5 +89,16 @@ nav form button:focus{
     border: 2px solid black;
 }
 #hero-area .carousel-item.panda-bg-secondary p{
+    color: white;
+}
+
+
+
+/* Categories Section */
+#Categories .row{
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+}
+#Categories .row h1{
     color: white;
 }
