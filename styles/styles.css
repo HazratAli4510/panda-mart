@@ -1,0 +1,21 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+nav .nav-item a{
+    font-weight: 600;
+    font-weight: 16px;
+}
+nav form input.form-control{
+    background-color: #F1F1F1;
+}
+
+nav form button{
+    position: relative;
+    right: 3rem;
+}
+nav form button:focus{
+    box-shadow: none !important;
+}
